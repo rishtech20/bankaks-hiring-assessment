@@ -1,10 +1,11 @@
 # Bankaks Hiring Challenge
 
 ## Tasks
-#### 1. Create two microservices
+#### 1. Dockerize, customise and deploy microservices
 - An internal microservice which can read and write data to the data store
 - An external microservice which can only read data from the data store by making calls to the internal microservice
-- Deploy this application so both the services are publicly available
+- Dockerize both the services so they can run as independent containers
+- Deploy this application so both the services are publicly available and are able to talk to each other
 
 #### 2. Remote Data Store
 - Create and deploy a remote data store to house the data from the internal microservice
